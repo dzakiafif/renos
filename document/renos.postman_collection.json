@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "b9c1d960-f0cf-40b2-9cb7-2e2227f9c453",
+		"name": "renos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/api/category",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"category"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": null,
+							"description": "required",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
